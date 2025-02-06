@@ -11,7 +11,9 @@ Afin de compléter cette démonstration avec succès vous devrez :
 5. Ajouter une méthode `setVolume` à la classe des planètes qui devra faire le **travail inverse** de `getVolume`.
    ATTENTION: **Intergalactik** ne souhaite pas que vous ajoutiez un attribut volume à la classe...
 6. Afficher à l'écran la liste des étoiles et de leurs planètes en conformité avec l'affichage présentée plus bas.
-7. Utiliser des attributs et méthodes **statiques** pour stocker le nombre d'étoiles et de planètes créées et l'afficher à la fin du listing des planètess.
+7. Utiliser des attributs et méthodes **statiques** pour stocker le nombre d'étoiles et de planètes créées et l'afficher à la fin du listing des planètes.
+
+> ATTENTION: **Intergalactik** n'aime pas les tableau standards, il vous demandent d'utiliser les `vector` sans même être en mesure de vous expliquer comment.  Vous devrez faire preuve d'autonomie!
 
 ## Formule du volume d'une sphère
 
