@@ -1,3 +1,4 @@
+<h1 align="Center">Travail Pratique #1</h1>
 <h1 align="Center">🌟 StarWars - RELOADED 🌟</h1>
 
 **Intergalactik**, une entreprise œuvrant dans l'astronomie, qui vous avait demandée de compléter cette [mini-application (déjà entamée par Cédrik Dubogue)](./_bin/starwars.zip) dans le passé vous demande maintenant de la faire fonctionner avec des classes au lieu de structs. Cette application affichera une liste d'étoiles incluant de l'information sur leurs planètes.
@@ -13,7 +14,9 @@ Afin de compléter cette démonstration avec succès vous devrez :
 6. Afficher à l'écran la liste des étoiles et de leurs planètes en conformité avec l'affichage présentée plus bas.
 7. Utiliser des attributs et méthodes **statiques** pour stocker le nombre d'étoiles et de planètes créées et l'afficher à la fin du listing des planètes.
 
-> ATTENTION: **Intergalactik** n'aime pas les tableau standards, il vous demandent d'utiliser les `vector` sans même être en mesure de vous expliquer comment.  Vous devrez faire preuve d'autonomie!
+> ATTENTION: Les fonctions de lecture depuis un fichier devront être adaptées car il est interdit d'utiliser des variables de paramétrage comme NOMBRE_PLANETES ou NOMBRE_ETOILES. Vous devez déduire le nombre de planètes et d'étoiles selon le nombre qu'il y a dans les fichiers de données.
+
+> ATTENTION: **Intergalactik** n'aime pas les tableau standards, il vous demandent d'utiliser les `vector` sans même être en mesure de vous expliquer comment. Vous devrez faire preuve d'autonomie!
 
 ## Formule du volume d'une sphère
 
@@ -85,8 +88,8 @@ Gliese 667 C
 | Gliese 667Cg  |          9800 |     352947000000 |
 ----------------------------------------------------
 
-Nombre de planètes créés : 29
-Nombre d'étoiles créés : 5
+Nombre de planètes créées : 29
+Nombre d'étoiles créées : 5
 ```
 
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
