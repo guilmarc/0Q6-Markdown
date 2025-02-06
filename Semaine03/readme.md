@@ -18,6 +18,8 @@ Afin de compléter cette démonstration avec succès vous devrez :
 
 > ATTENTION: **Intergalactik** n'aime pas les tableau standards, il vous demandent d'utiliser les `vector` sans même être en mesure de vous expliquer comment. Vous devrez faire preuve d'autonomie!
 
+> ATTENTION: **Intergalactik** exige du code 100% en anglais.
+
 ## Formule du volume d'une sphère
 
 # $V = \frac{{4\pi r^3 }}{3}$.
