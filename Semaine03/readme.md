@@ -16,7 +16,7 @@ Afin de compléter cette démonstration avec succès vous devrez :
 
 > ATTENTION: Les fonctions de lecture depuis un fichier devront être adaptées car il est interdit d'utiliser des variables de paramétrage comme NOMBRE_PLANETES ou NOMBRE_ETOILES. Vous devez déduire le nombre de planètes et d'étoiles selon le nombre qu'il y a dans les fichiers de données.
 
-> ATTENTION: **Intergalactik** n'aime pas les tableaux standards, il vous demandent d'utiliser les `vector` sans même être en mesure de vous expliquer comment. Vous devrez faire preuve d'autonomie!
+> ATTENTION: **Intergalactik** n'aime pas les tableaux standards, il vous demandent d'utiliser les [`vector`](https://www.youtube.com/watch?v=Ob-H9dd2y4Y) sans même être en mesure de vous expliquer comment. Vous devrez faire preuve d'autonomie!
 
 > ATTENTION: **Intergalactik** exige du code 100% en anglais.
 
