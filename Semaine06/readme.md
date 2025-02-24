@@ -12,9 +12,10 @@ Elle a divisé le projet en 3 devis distincts :
 #### Liste des demandes
 
 1. Créer une liste chaînée (classe ProductList) permettant de structurer les données des produits disponibles.
-> Il est possible de créer avec l'option `new` mais il ne sera pas nécessaire dans ce cas car nous voulons que la liste d'ajoute sur la `stack` et non la `heap`.
-2. Effectuer l'affichage de l'ensemble des produits provenant de la base de données.
-3. Remettre votre solution au devis #1 à **Infologique Inc** afin d'obtenir votre paiement.
+   > Il est possible de créer avec l'option `new` mais il ne sera pas nécessaire dans ce cas car nous voulons que la liste d'ajoute sur la `stack` et non la `heap`.
+2. Créer une fonction de lecture des fichiers depuis la base de données.
+3. Effectuer l'affichage de l'ensemble des produits provenant de la liste en mémoire.
+4. Remettre votre solution au devis #1 à **Infologique Inc** afin d'obtenir votre paiement.
 
 #### Spécifications
 
