@@ -24,6 +24,25 @@ ProduitList devra offrir ces méthodes :
 4. removeAt(index) --> Supprime un produit de la liste à l'index demandé.
 5. getCount() --> Retourne le nombre de produits présents dans la liste.
 
+#### Visuel d'un reçu de caisse
+```
+---------------------------
+|     Infologique Inc.    |
+---------------------------
+|     2025-03-01 16h35    |
+---------------------------
+| 002 Western Digital     |
+|     WD Black SN850 1To  |  
+|     2065.12     4130.24 |
+|                         |
+| 005 Nvidia              |
+|     GeForce RTX 4070    |
+|      138.46      692.30 |
+|                         |
+|     TOTAL:      4822.54 |
+--------------------------- 
+```
+
 ## Devis #2
 En analyse par le client...
 
