@@ -21,9 +21,9 @@ Elle a divisé le projet en 3 devis distincts :
 
 ProductList devra offrir ces méthodes :
 
-1. add(product) --> Ajoute un élément à selon que l'option de trie sélectionnée (ou pas).
-2. print() --> Affiche la liste des produits à l'écran.
-3. getCount() --> Retourne le nombre de produits présents dans la liste.
+1. `add(product)` --> Ajoute un élément à selon que l'option de trie sélectionnée (ou pas).
+2. `print()` --> Affiche la liste des produits à l'écran.
+3. `getCount()` --> Retourne le nombre de produits présents dans la liste.
 
 ## Devis #2
 
