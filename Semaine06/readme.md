@@ -1,37 +1,33 @@
 <h1 align="Center">Travail Pratique #2</h1>
 <h1 align="Center">🧾 Infologique Inc 🧾</h1>
 
-**Infologique Inc**, une entreprise œuvrant dans la vente de logiciels souhaite créer une application de vente au détail (POS) afin de la proposer à sa clientèle oevrant dans la vente au détail (dont **Atlas Informatique**). Il vous demande de créer une preuve de concept de structure de données permettant la création de reçus d'achat pour une caisse enregistreuse munie d'un lecteur de code à barre. Comme **Infologique Inc** est située en France, elle est consciente qu'elle ne pourra pas vous fournir le matériel nécessaire aux tests avec le lecteur de code à barre. Elle désire que vous soyez en mesure de lui envoyer une solution Visual Studio simulant la création de reçus de vente, simulant ainsi de réels achats. **Infologique Inc.** possède la [base de données](./_bin/products.dat) des produits offerts par son client.
+**Infologique Inc**, une entreprise œuvrant dans la vente de logiciels souhaite créer une application de vente au détail (POS) afin de la proposer à sa clientèle travaillant dans la vente au détail (dont **Atlas Informatique**). Il vous demande de créer une preuve de concept de structure de données permettant la création de reçus d'achat pour une caisse enregistreuse munie d'un lecteur de code à barre. Comme **Infologique Inc** est située en France, elle est consciente qu'elle ne pourra pas vous fournir le matériel nécessaire aux tests avec le lecteur de code à barre. Elle désire que vous soyez en mesure de lui envoyer une solution Visual Studio simulant la création de reçus de vente, simulant ainsi de réels achats. **Infologique Inc.** possède la [base de données](./_bin/products.dat) des produits offerts par son client.
 
 > ATTENTION: **Infologique Inc** exige du code 100% en anglais.
 
-Elle a divisé le projet en 3 devis distincts :
-
-## Devis #1
+## Devis initial - Affichage des produits 
 
 #### Liste des demandes
 
-1. Créer une liste chaînée (classe ProductList) permettant de structurer les données des produits disponibles.
-   > Il est possible de créer avec l'option `new` mais il ne sera pas nécessaire dans ce cas car nous voulons que la liste d'ajoute sur la `stack` et non la `heap`.
-2. Créer une fonction de lecture des fichiers depuis la base de données.
-3. Effectuer l'affichage de l'ensemble des produits provenant de la liste en mémoire.
-4. Remettre votre solution au devis #1 à **Infologique Inc** afin d'obtenir votre paiement.
-
-#### Spécifications
-
-ProductList devra offrir ces méthodes :
-
-1. `add(product)` --> Ajoute un élément à selon que l'option de trie sélectionnée (ou pas).
-2. `print()` --> Affiche la liste des produits à l'écran.
-3. `getCount()` --> Retourne le nombre de produits présents dans la liste.
-
-## Devis #2
-
-En analyse par le client...
-
-## Devis #3
-
-En analyse par le client...
+1. Créer la classe `Product` incluant les sections que vous avez vues en classes ainsi qu'une fonction `toString()` qui retourne une version chaîne de caractères du produit.
+2. Créer une structure de données de liste chaînée (classe `ProductList`) permettant de regrouper les données des produits disponibles qui contiendra au minimum :
+   1. Un attribut `head` qui pointe sur le premier élément de type `Node` qui, à son tour, contiendra :
+      1. Un attribut `data` de type `Product`.
+      2. Un attribut `next` de type `Node` initialisé à `nullptr` par défaut.
+      3. Un constructeur permettant de créer un nouveau `Node`.
+         > Il n'est pas nécesaire de créer des getters/setters à `Node` car il est déjà protégé en étant accessible seulement par `ProductList`.
+      4. Un destructeur pour libérer l'espace mémoire du produit lié sur la Heap.
+   2. Une fonction `add(Product)` qui servira à créer un nouveau `Node` sur la Heap.
+   3. Une fonction `print()` qui affichera la liste des produits à l'écran.
+   4. Une fonction `getCount()` qui retournera le nombre de produits à l'écran.
+   5. Un destructeur pour libérer l'espace mémoire du `Node` sur la Heap.
+3. Créer une fonction `readProducts(ProductList)` de lecture des produits depuis le fichier `products.dat` :
+   1. Lire l'ensemble des données d'un produit dans des variables distinctes.
+   2. Créer un nouveau produit sur la `Heap` en utilisant son constructeur.
+   3. Ajouter le nouveau produit dans `ProductList`.
+4. Effectuer l'affichage des produits à l'écran contenant :
+   1. Un entête au nom du client final qui affichera le nombre de produits total provenant de `ProductList`.
+   2. La liste de tout les produits disponibles.
 
 <hr/>
 <p align="Center"><img src="./images/end.png" alt="drawing" width="150"/></p>
