@@ -20,7 +20,7 @@
    2. Une fonction `add(Product)` qui servira à créer un nouveau `Node` sur la Heap.
    3. Une fonction `print()` qui affichera la liste des produits à l'écran.
    4. Une fonction `getCount()` qui retournera le nombre de produits à l'écran.
-   5. Un destructeur pour libérer l'espace mémoire du `Node` sur la Heap.
+   5. Un destructeur pour libérer l'espace mémoire des `Node` présents sur la Heap.
 3. Créer une fonction `readProducts(ProductList)` de lecture des produits depuis le fichier `products.dat` :
    1. Lire l'ensemble des données d'un produit dans des variables distinctes.
    2. Créer un nouveau produit sur la `Heap` en utilisant son constructeur.
