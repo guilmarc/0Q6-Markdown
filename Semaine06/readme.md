@@ -5,17 +5,17 @@
 
 > ATTENTION: **Infologique Inc** exige du code 100% en anglais.
 
-## Devis initial - Affichage des produits 
+## Devis initial - Affichage des produits
 
 #### Liste des demandes
 
 1. Créer la classe `Product` incluant les sections que vous avez vues en classes ainsi qu'une fonction `toString()` qui retourne une version chaîne de caractères du produit.
 2. Créer une structure de données de liste chaînée (classe `ProductList`) permettant de regrouper les données des produits disponibles qui contiendra au minimum :
-   1. Un attribut `head` qui pointe sur le premier élément de type `Node` qui, à son tour, contiendra :
+   1. Un attribut `head` qui pointe sur le premier élément qui sera une `struct` nommée `Node` qui, à son tour, contiendra :
       1. Un attribut `data` de type `Product`.
       2. Un attribut `next` de type `Node` initialisé à `nullptr` par défaut.
       3. Un constructeur permettant de créer un nouveau `Node`.
-         > Il n'est pas nécesaire de créer des getters/setters à `Node` car il est déjà protégé en étant accessible seulement par `ProductList`.
+         > On utilise `struct` pour `Node` car les attributs seront par défaut public et cela est convenable car il n'est accessible que par `ProductList`.
       4. Un destructeur pour libérer l'espace mémoire du produit lié sur la Heap.
    2. Une fonction `add(Product)` qui servira à créer un nouveau `Node` sur la Heap.
    3. Une fonction `print()` qui affichera la liste des produits à l'écran.
