@@ -20,12 +20,12 @@ Entrez votre phrase : J'aime utiliser la pile!
 Alors vous dites : !elip al resilitu emia'J
 ```
 
-## ✔️ Question 3 - Validateur
+## ✔️ Question 3 - Prettier Light
 
-Vous connaissez maintenant **Prettier**, un formateur de code dans Visual Studio Code. Dans cette question, vous devez utiliser la pile afin de valider si les codes suivants contiennent un nombre équilibré d'accolades ouvrantes et fermantes. Copiez les codes dans une variable `string` dans Visual Studio et servez-vous de la pile pour effectuer la validation.
+Vous connaissez maintenant **Prettier**, un formateur de code dans Visual Studio Code. Dans cette question, vous devez utiliser la pile afin de valider si les codes suivants contiennent un nombre équilibré d'accolades ouvrantes et fermantes. Copiez les codes dans des variables `code1`, `code2` et `code3` en ajoutant un `R` au début et des paranthèses `()` alentour du code afin d'être en mesure d'écrire sur plusieurs lignes.
 
 ```cpp
-string code = "if(age >= 18) {..."
+string code1 = R"(if(age >= 18) {...)"
 ```
 
 #### Code #1
@@ -68,6 +68,23 @@ if(age >= 18) {
 
 ```plaintext
 Il y a trop d'accolades ouvrantes !
+```
+
+## DÉFI ✔️ Question 4 - Prettier SemiLight
+Reprenez la solution précédente et affichez le numéro de ligne lorsqu’une erreur de balancement des accolades est détectée :
+
+#### Code #2
+
+```cpp
+if(age >= 18) {
+   if(!hasExperience) {
+      cout << "Je suis désolé, je cherche quelqu'un avec expérience !"
+   }}
+}
+```
+
+```plaintext
+Il y a trop d'accolades fermantes à la ligne #4 !
 ```
 
 <hr/>
