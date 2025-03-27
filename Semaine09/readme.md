@@ -3,7 +3,7 @@
 
 ## 📚 Question 1 - StackIt
 
-Créer une structure de données de type LIFO (Last In First Out) générique nommée `StackIt` en utilisant les tableaux réguliers comme structure de base. La classe doit contenir les méthodes suivantes :
+Créer une structure de données de type LIFO (Last In First Out) générique nommée `StackIt` en utilisant les tableaux réguliers comme structure de base. Le tableau intégré sera initialisé à 512 éléments. La classe doit contenir les méthodes suivantes :
 
 1. `push` : ajoute un élément sur la pile.
 2. `pop` : retire le dernier élément de la pile et le retourne.
