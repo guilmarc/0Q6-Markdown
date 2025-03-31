@@ -70,8 +70,17 @@ if(age >= 18) {
 Il y a trop d'accolades ouvrantes !
 ```
 
-## DÉFI ✔️ Question 4 - Prettier SemiLight
-Reprenez la solution précédente et affichez le numéro de ligne lorsqu’une erreur de balancement des accolades est détectée :
+## Question 4 - CalcIt
+```plaintext
+Programmer un algorithme capable d'évaluer le résultat d'une expression mathématique tel que :
+```
+```plaintext
+Formule = (4 + 6) * 10 - 50
+Résultat = 50
+```
+
+## DÉFI ✔️ Question 5 - Prettier SemiLight
+Reprenez la solution Prettier Light et affichez le numéro de ligne lorsqu’une erreur de balancement des accolades est détectée :
 
 #### Code #2
 
