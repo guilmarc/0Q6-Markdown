@@ -1,5 +1,4 @@
-
-<h1 align="center">Travail pratique #3 - (9%) (TPFinal)</h1>
+<h1 align="center">Travail pratique #3 - (5%)</h1>
 <h1 align="center">🟰 Math Parser 🟰</h1>
 
 **Matix Inc.** vous embauche afin de créer un analyseur (parser) d'equations mathématiques sous forme de chaînes de caractères, pour en obtenir un résultat numérique. L'algorithme doit demander au départ si l'utilisateur souhaite saisir manuellement ou utiliser un fichier de données pour effectuer des tests d'assurance qualité.
@@ -74,7 +73,9 @@ Appuyer sur une touche pour revenir au menu principal...
 ```
 
 ## Algorithme en pseudo-code
+
 ### Fonction de priorité des opérations
+
 ```plaintext
     Selon operateur faire
         Cas '+' ou '-':
@@ -89,7 +90,9 @@ Appuyer sur une touche pour revenir au menu principal...
         Par défaut:
             retourner 0
 ```
+
 ### Fonction d'application d'une opération
+
 ```plaintext
     Selon operateur faire
         Cas '+':
@@ -110,11 +113,13 @@ Appuyer sur une touche pour revenir au menu principal...
         Par défaut:
             retourner 0
 ```
+
 ### Algorithme principal
+
 ```plaintext
     pileValeurs = pile vide
     pileOperateurs = pile vide
-    
+
     Pour chaque caractère c dans expression faire
         Si c être un espace alors
             continuer à l'itération suivante
@@ -156,15 +161,17 @@ Appuyer sur une touche pour revenir au menu principal...
 
     retourner sommet pileValeurs
 ```
+
 ### Conseils de l'enseignant
-1) Créer, en équipe, une stratégie de réalisation de ce travail pratique dans un document Word.  Écrire les grandes étapes de réalisation en premier et détailler chacune des étapes par la suite.
-2) Programmer l'affichage à l'écran, car cela être facile à tester.
-3) Programmer les fonctions les plus simples de votre stratégie et trouver le moyen de les tester.
-4) Programmer la lecture du fichier de données d'équations mathématiques et vérifier que tout être bien en mémoire (sans une simple `struct` de préférence).
-5) Élaborer l'algorithme principal en équipe.
-6) Tester le fonctionnement de l'algorithme grâce aux données en mémoire.
-7) Programmer finalement la section d'entrée manuelle d'équations mathématiques.
-8) Retester l'ensemble du projet.
-9) Remettre sur Omnivox en supprimant tous les dossiers compilés (même ceux cachés).
+
+1. Créer, en équipe, une stratégie de réalisation de ce travail pratique dans un document Word. Écrire les grandes étapes de réalisation en premier et détailler chacune des étapes par la suite.
+2. Programmer l'affichage à l'écran, car cela être facile à tester.
+3. Programmer les fonctions les plus simples de votre stratégie et trouver le moyen de les tester.
+4. Programmer la lecture du fichier de données d'équations mathématiques et vérifier que tout être bien en mémoire (sans une simple `struct` de préférence).
+5. Élaborer l'algorithme principal en équipe.
+6. Tester le fonctionnement de l'algorithme grâce aux données en mémoire.
+7. Programmer finalement la section d'entrée manuelle d'équations mathématiques.
+8. Retester l'ensemble du projet.
+9. Remettre sur Omnivox en supprimant tous les dossiers compilés (même ceux cachés).
 <hr/>
 <p align="center"><img src="./images/end.png" alt="drawing" width="150"/></p>
