@@ -1,10 +1,9 @@
-
 <h1 align="center">Exercices 04</h1>
 <h1 align="center">📍 Les Maps 📍</h1>
 
 ## Mise en situation
 
-Vous êtes maintenant apte à créer et à utiliser de nombreux types de structures de données, dont les *maps*. Il s'agit d'une structure de données de type clé‑valeur où il est impossible d'enregistrer deux fois une valeur ayant la même clé. C'est très utile, par exemple, lorsqu'on souhaite stocker des produits avec un SKU unique. Si l'utilisateur tente d'entrer une valeur avec une clé existante, l'application ignore tout simplement la demande.
+Vous êtes maintenant apte à créer et à utiliser de nombreux types de structures de données, dont les _maps_. Il s'agit d'une structure de données de type clé‑valeur où il est impossible d'enregistrer deux fois une valeur ayant la même clé. C'est très utile, par exemple, lorsqu'on souhaite stocker des produits avec un SKU unique. Si l'utilisateur tente d'entrer une valeur avec une clé existante, l'application ignore tout simplement la demande.
 
 Il est donc du rôle de la map de s'assurer que, lorsqu'on ajoute un élément, l'existence de la clé est vérifiée avant l'ajout.
 
@@ -57,13 +56,13 @@ void question01() {
 ```
 
 ```plaintext
-284162:Un choix parfait pour les gamers recherchant fluidité et rapidité.
+284162:Une combinaison parfaite entre puissance et efficacité énergétique.
 602855:Optimisé pour une productivité accrue grâce à des fonctionnalités avancées.
 182945:Un produit polyvalent, adapté aux professionnels comme aux particuliers.
 573207:Offre une qualité d'image et un confort visuel exceptionnels.
 // ...
 
-Produit avec le code 284162 : Un choix parfait pour les gamers recherchant fluidité et rapidité.
+Produit avec le code 284162 : Une combinaison parfaite entre puissance et efficacité énergétique.
 ```
 
 <hr/>
