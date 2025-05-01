@@ -5,3 +5,4 @@
 3. [Semaine 03 - Classes et objets](./Semaine03/).
 4. [Semaine 06 - Les listes](./Semaine06/).
 5. [Semaine 09 - La pile](./Semaine09/).
+6. [Semaine 13 - Les maps](./Semaine13/).
