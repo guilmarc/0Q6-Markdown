@@ -16,6 +16,8 @@ Repensez à ce qui a été vu en classe dans les derniers cours afin de résoudr
 
 ```cpp
 class StaticStringMap {
+    string keys[MAX_SIZE];
+	string values[MAX_SIZE];
     // Votre code ici
 };
 ```
