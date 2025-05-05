@@ -63,5 +63,10 @@ void question01() {
 Produit avec le code 284162 : Un choix parfait pour les gamers recherchant fluidité et rapidité.
 ```
 
+## 📚 Question 2 – Map générique
+Pour réussir cette question, vous devez créer un nouveau projet dans votre solution et rendre votre Map __complètement générique__ permettant d'y insérer des objets de type Produits provenant de la classe `Product`.  Il ne doit y avoir maintenant qu'un seul tableau de données.  Vous devez être créatif et trouver comment intéger toutes ces données dans un seul tableau régulier.
+
+Essayez par vous même dans l'équipe et venez négocier avec le client lorsque vous serez bloqués.
+
 <hr/>
 <p align="center"><img src="./images/end.png" alt="drawing" width="150"/></p>
